@@ -8,18 +8,18 @@ This repo is a possible starter solution for of a monorepo setup in Python using
 
 base folder containing shared dotfiles
 
-#### apps
+#### /apps
 
 contains individual deployable packages like `api`, `workers`, etc...
 
-#### libs
+#### /libs
 
 contains shared libraries that can be installed locally into other packages.
 
-##### libs/devel
+##### /libs/devel
 
 a special libs package containing the common dev dependencies like `pylint`, `flake8`, etc... It simplifies locking their versions across packages.
 
-#### tools
+#### /tools
 
 contains internal tools and cli used across the project.
