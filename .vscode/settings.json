@@ -3,8 +3,9 @@
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
     "files.exclude": {
-        "apps": true,
-        "libs": true,
+        "apps/*": true,
+        "libs/*": true,
+        "tools/*": true,
         "**/.git": true,
         "**/.svn": true,
         "**/.hg": true,
