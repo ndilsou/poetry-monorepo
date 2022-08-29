@@ -27,6 +27,10 @@
         {
             "name": "libs/devel",
             "path": "./libs/devel"
+        },
+        {
+            "name": "tools/monokit",
+            "path": "./tools/monokit"
         }
     ]
 }

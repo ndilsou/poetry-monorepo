@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "monokit"
+version = "0.1.0"
+description = ""
+authors = ["ndilsou <nasoungadoy@gmail.com>"]
+packages = [
+    {include = "main.py"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = {version = "^0.6.1", extras = ["all"]}
+
+[tool.poetry.dev-dependencies]
+devel = {path = "../../libs/devel", develop = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
