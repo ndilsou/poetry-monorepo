@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "devel"
+version = "0.1.0"
+description = "shared development tools"
+authors = ["ndilsou <nasoungadoy@gmail.com>"]
+packages = [
+    {include = "README.md"},
+    {include = ".flake8"}
+]
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.1.2"
+flake8 = "^5.0.4"
+pylint = "^2.15.0"
+pyright = "^1.1.268"
+black = "^22.6.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

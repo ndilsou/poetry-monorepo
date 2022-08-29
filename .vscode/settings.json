@@ -1,0 +1,15 @@
+{
+    "python.linting.mypyEnabled": false,
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "files.exclude": {
+        "apps": true,
+        "libs": true,
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true
+    }
+}

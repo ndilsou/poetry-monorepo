@@ -1,0 +1,32 @@
+{
+    "settings": {
+        "python.autoComplete.extraPaths": [
+            ".venv/lib"
+        ],
+        "python.analysis.extraPaths": [
+            ".venv/lib"
+        ],
+        "python.linting.mypyEnabled": false,
+        "python.linting.pylintEnabled": true,
+        "python.linting.enabled": true,
+        "python.formatting.provider": "black"
+    },
+    "folders": [
+        {
+            "name": "root",
+            "path": "./"
+        },
+        {
+            "name": "apps/api",
+            "path": "./apps/api"
+        },
+        {
+            "name": "libs/core",
+            "path": "./libs/core"
+        },
+        {
+            "name": "libs/devel",
+            "path": "./libs/devel"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "api"
+version = "0.1.0"
+description = ""
+authors = ["ndilsou <nasoungadoy@gmail.com>"]
+
+[tool.poetry.scripts]
+dev = "uvicorn 'api.main:app' --reload"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.81.0"
+uvicorn = {version = "^0.18.3", extras = ["standard"]}
+core = {path = "../../libs/core",  develop = true}
+
+[tool.poetry.dev-dependencies]
+devel = {path = "../../libs/devel", develop = false}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
