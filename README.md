@@ -1,4 +1,4 @@
-# Python PDM Monorepo demo
+# Python Monorepo example
 
 This repo is a possible starter solution for of a monorepo setup in Python using [Poetry](https://python-poetry.org/)
 
