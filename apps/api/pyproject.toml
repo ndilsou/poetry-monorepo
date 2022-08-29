@@ -14,7 +14,7 @@ uvicorn = {version = "^0.18.3", extras = ["standard"]}
 core = {path = "../../libs/core",  develop = true}
 
 [tool.poetry.dev-dependencies]
-devel = {path = "../../libs/devel", develop = false}
+devel = {path = "../../libs/devel", develop = true}
 requests = "^2.28.1"
 
 [build-system]

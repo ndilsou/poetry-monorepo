@@ -5,7 +5,6 @@ description = "shared development tools"
 authors = ["ndilsou <nasoungadoy@gmail.com>"]
 packages = [
     {include = "README.md"},
-    {include = ".flake8"}
 ]
 [tool.poetry.dependencies]
 python = "^3.10"
